@@ -1,0 +1,49 @@
+.color-black{
+    color: #000000;
+}
+.color-white{
+    color: #ffffff;
+}
+.color-fa{
+ color: #fafafa;
+}
+.bitmanity-red{
+    color: #e62117;
+}
+.color-grey{
+    color: #a0a0a0;
+}
+.bitmanity-border-bottom{
+    border-bottom: 1px solid #ebebeb;
+}
+.title-text{
+    font-weight: bold !important;
+    color: #000000 !important;
+    font-size: medium !important;
+    line-height: 16px !important;
+
+}
+.subtitle-text{
+    font-weight: normal !important;
+    color: #818A91!important;
+    font-size: small !important;
+    line-height: 20px !important;
+}
+.no-border{
+    border: none !important;
+}
+.no-box-shadow{
+    box-shadow: none;
+}
+.card-padding{
+    padding: 10px 10px 10px 0px;
+}
+.card-content-creator{
+    font-weight: normal !important;
+    color: #818A91;
+    font-size: small !important;
+    line-height: 15px !important;
+}
+span.card-content-creator:hover{
+    color: #000;
+}
