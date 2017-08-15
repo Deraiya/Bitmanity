@@ -42,24 +42,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- END Custom CSS-->
 </head>
-<body data-open="hover" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns fixed-navbar" style="background-color: #fafafa">
+<body data-open="hover" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns " style="background-color: #fafafa">
 
-<!-- navbar-fixed-top-->
-<nav class="header-navbar navbar  navbar-with-menu undefined navbar-light position-fixed" data-nav="brand-center" style="background: #fff">
+<!--&lt;!&ndash; navbar-fixed-top&ndash;&gt;-->
+<nav class="header-navbar navbar navbar-with-menu undefined navbar-light hidden-lg-up" data-nav="brand-center" style="background: #fff;border-bottom: 1px solid #ebebeb;">
     <div class="navbar-wrapper">
         <div class="container">
-            <div class="d-flex justify-content-between align-content-center align-baseline">
-                <div >
-                    <a href="index.html" class="navbar-brand nav-link" style="padding-top: 12px;"><img alt="branding logo" src="app-assets/images/logo/logo.png" data-expand="app-assets/images/logo/logo.png" data-collapse="app-assets/images/logo/robust-logo-small.png" class="brand-logo" style="width: auto;height: 40px"></a>
-                </div>
-                <div class="hidden-lg-down" style="margin-right: 170px">
-                    <fieldset class="form-group relative has-icon-left  " style="margin-bottom: 0px;margin-top: 12px;width: 340px">
-                        <input id="iconLeft" type="text" placeholder="Search..." class="form-control round" style="border-radius: 0.4rem;background-color: #fafafa;">
-                        <div class="form-control-position" style="margin-top: 12px;"><i class="icon-search7"></i></div>
-                    </fieldset>
-                </div>
+            <div class="d-flex justify-content-center ">
                 <div>
-                    <span class="avatar avatar-md avatar-busy" style="top: 12px;"><img src="app-assets/images/portrait/small/avatar-s-18.png" alt="avatar"></span>
+                    <a href="index.html" class="navbar-brand nav-link" style="padding-top: 12px;"><img alt="branding logo" src="app-assets/images/logo/logo.png" data-expand="app-assets/images/logo/logo.png" data-collapse="app-assets/images/logo/robust-logo-small.png" class="brand-logo" style="width: auto;height: 40px"></a>
                 </div>
             </div>
         </div>
@@ -73,18 +64,28 @@
 
 
 <!-- Horizontal navigation-->
-<div role="navigation" data-menu="menu-wrapper" class="header-navbar navbar navbar-horizontal navbar-fixed navbar-light hidden-xs-down " style="border-bottom: 1px solid #ebebeb;background: #fff" >
+<div role="navigation" data-menu="menu-wrapper" class="header-navbar navbar navbar-horizontal navbar-fixed navbar-light hidden-lg-down " style="border-bottom: 1px solid #ebebeb;background: #fff" >
     <!-- Horizontal menu content-->
-    <div class="navbar-container main-menu-content container " style="width: 700px;">
-        <div style="display: flex;justify-content: space-around;align-content: center;padding-top: 13px">
+    <div class="navbar-container main-menu-content container">
+            <div class="d-flex justify-content-between ">
+                <div>
+                    <a href="index.html" class="navbar-brand nav-link" style="padding-top: 12px;"><img alt="branding logo" src="app-assets/images/logo/logo.png" data-expand="app-assets/images/logo/logo.png" data-collapse="app-assets/images/logo/robust-logo-small.png" class="brand-logo" style="width: auto;height: 40px"></a>
+                </div>
+                <div class="hidden-lg-down" style="margin-right: 170px;margin-left: 30px;">
+                    <fieldset class="form-group relative has-icon-left  " style="margin-bottom: 0px;margin-top: 18px;width: 340px">
+                        <input id="iconLeft" type="text" placeholder="Search..." class="form-control round" style="border-radius: 0.2rem;background-color: #fafafa;height:30px">
+                        <div class="form-control-position" style="margin-top: 14px;"><i class="icon-search7"></i></div>
+                    </fieldset>
+                </div>
 
-            <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-home" style="color: #000" ></i></a></div>
-            <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-fireball" style="color: #9c9c9c"></i></a></div>
-            <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-plus-square" style="color: #9c9c9c"></i></a></div>
-            <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-android-favorite" style="color: #9c9c9c"></i></a></div>
-            <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-navicon-round" style="color: #9c9c9c"></i></a></div>
-
-
+                <div class="d-flex justify-content-around flex-row col-lg-4 hidden-lg-down" style="padding-top: 12px">
+                    <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-home" style="color: #000" ></i></a></div>
+                    <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-fireball" style="color: #9c9c9c"></i></a></div>
+                    <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-android-favorite" style="color: #9c9c9c"></i></a></div>
+                    <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-plus-square" style="color: #9c9c9c"></i></a></div>
+                    <div><a href="#" style="color: #000;font-size: 25px"><i class="icon-android-person" style="color: #9c9c9c"></i></a></div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -92,7 +93,7 @@
 </div>
 <!-- Horizontal navigation-->
 
-<div class="app-content container  center-layout mt-2">
+<div class="app-content container center-layout mt-2">
     <div class="content-wrapper">
 
         <div class="content-body">
@@ -265,7 +266,7 @@
                                 <div class="card-block" style="padding: 0px 10px 10px 10px">
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-                                            <span style="margin-right: 8px"><i class="icon-android-favorite" style="font-size: 25px;color: #000"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: 25px;color: #000"></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
                                             <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: 25px;color: #9c9c9c"" ></i></span>
