@@ -42,8 +42,34 @@
     font-weight: normal !important;
     color: #818A91;
     font-size: small !important;
-    line-height: 15px !important;
+    line-height: 18px !important;
+}
+.card-content-creator-b{
+    font-weight: bold !important;
+    color: #000;
+    font-size: medium !important;
+    line-height: 40px;
+
 }
 span.card-content-creator:hover{
     color: #000;
+}
+.height-try{
+ min-height: 10px ;
+}
+.card-header-padding{
+ padding: 10px 24px 10px 10px;
+}
+.card-blog-img-padding{
+    padding: 10px 10px 10px 10px;
+    max-height: 180px;
+    overflow: hidden;
+}
+.card-blog-padding{
+    padding: 10px 10px 10px 10px;
+}
+.likes-Views{
+    font-size: medium;
+    color: #818A91;
+
 }
