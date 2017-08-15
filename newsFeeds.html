@@ -42,10 +42,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- END Custom CSS-->
 </head>
-<body data-open="hover" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns " style="background-color: #fafafa">
+<body data-open="hover" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns fixed-navbar" style="background-color: #fafafa">
 
 <!-- navbar-fixed-top-->
-<nav class="header-navbar navbar navbar-with-menu undefined navbar-light" data-nav="brand-center" style="background: #fff">
+<nav class="header-navbar navbar  navbar-with-menu undefined navbar-light position-fixed" data-nav="brand-center" style="background: #fff">
     <div class="navbar-wrapper">
         <div class="container">
             <div class="d-flex justify-content-between align-content-center align-baseline">
@@ -92,7 +92,7 @@
 </div>
 <!-- Horizontal navigation-->
 
-<div class="app-content container center-layout mt-2">
+<div class="app-content container  center-layout mt-2">
     <div class="content-wrapper">
 
         <div class="content-body">
@@ -108,30 +108,28 @@
                                         <a href="#"  class=" nav-link d-flex flex-row">
                                             <span class="avatar avatar-md"><img src="app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"></span>
                                             <span class="d-flex flex-column ml-1" style="line-height: 18px">
-                                                        <span class="user-name card-content-creator" style="color: #000"><strong>John Doe</strong></span>
-                                                        <span class="subtitle-text"><span>4 hrs</span></span>
+                                                        <span class="user-name card-content-creator f-bold-small" style="color: #000">John Doe</span>
+                                                        <span class="subtitle-text"><span class="f-normal-small">4 hrs</span></span>
                                                     </span>
 
                                         </a>
                                     </p>
                                 </div>
                                 <div class="card-block card-blog-img-padding">
-                                    <img class="card-img-top img-fluid" src="app-assets/images/carousel/03.jpg" alt="Card image cap" width="100%" />
+                                    <img class="card-img-top img-fluid" src="app-assets/images/carousel/01.jpg" alt="Card image cap" width="100%" />
                                 </div>
 
                                 <div class="card-block card-blog-padding" style="padding-bottom: 0px">
-                                    <h4 class="card-title" style="margin-bottom: 10px;">Top Image Cap</h4>
-                                    <p class="card-text">Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut pastry.</p>
+                                    <div class="card-title f-bold-small" style="margin-bottom: 10px;">Top Image Cap</div>
+                                    <p class="card-text f-normal-small">Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut pastry.</p>
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-
-                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: small"></i></span>
-                                            <span class="likes-Views"> <small>200</small></span>
+                                            <span class="likes-Views f-normal-small">200 likes</span>
                                         </span>
                                         <span>
-                                            <span class="likes-Views"> <small>44 Comments <span>&bull;</span></small></span>
-                                            <span class="likes-Views"><small>10 Shares <span>&bull;</span></small></span>
-                                            <span class="likes-Views"><small>220 Views </small></span>
+                                            <span class="likes-Views f-normal-small"> 44 Comments <span>&bull;</span></span>
+                                            <span class="likes-Views f-normal-small">10 Shares <span>&bull;</span></span>
+                                            <span class="likes-Views f-normal-small">220 Views</span>
 
                                         </span>
 
@@ -142,13 +140,13 @@
                                 <div class="card-block" style="padding: 0px 10px 10px 10px">
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-android-favorite" style="font-size: 25px;color: #000"></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
-                                            <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: 25px;color: #9c9c9c"" ></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
-                                            <span style="margin-right: 8px"><i class="icon-send" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-send" style="font-size: 25px;color: #9c9c9c""></i></span>
                                         </span>
 
                                     </p>
@@ -163,7 +161,7 @@
             </section>
             <!-- Card overlay section end -->
 
-            <section id="card-overlay" >
+            <section id="card-overlay">
                 <div class="row match-height">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="card" style="border: none;box-shadow: none">
@@ -173,8 +171,8 @@
                                         <a href="#"  class=" nav-link d-flex flex-row">
                                             <span class="avatar avatar-md"><img src="app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"></span>
                                             <span class="d-flex flex-column ml-1" style="line-height: 18px">
-                                                        <span class="user-name card-content-creator" style="color: #000"><strong>John Doe</strong></span>
-                                                        <span class="subtitle-text"><span>4 hrs</span></span>
+                                                        <span class="user-name card-content-creator f-bold-small" style="color: #000">John Doe</span>
+                                                        <span class="subtitle-text"><span class="f-normal-small">4 hrs</span></span>
                                                     </span>
 
                                         </a>
@@ -185,17 +183,16 @@
                                 </div>
 
                                 <div class="card-block card-blog-padding" style="padding-bottom: 0px">
-                                    <h4 class="card-title" style="margin-bottom: 10px;">Top Image Cap</h4>
-                                    <p class="card-text">Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut pastry.</p>
+                                    <div class="card-title f-bold-small" style="margin-bottom: 10px;">Top Image Cap</div>
+                                    <p class="card-text f-normal-small">Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut pastry.</p>
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: small"></i></span>
-                                            <span class="likes-Views"> <small>200</small></span>
+                                            <span class="likes-Views f-normal-small">200 likes</span>
                                         </span>
                                         <span>
-                                            <span class="likes-Views"> <small>44 Comments <span>&bull;</span></small></span>
-                                            <span class="likes-Views"><small>10 Shares <span>&bull;</span></small></span>
-                                            <span class="likes-Views"><small>220 Views </small></span>
+                                            <span class="likes-Views f-normal-small"> 44 Comments <span>&bull;</span></span>
+                                            <span class="likes-Views f-normal-small">10 Shares <span>&bull;</span></span>
+                                            <span class="likes-Views f-normal-small">220 Views</span>
 
                                         </span>
 
@@ -206,14 +203,13 @@
                                 <div class="card-block" style="padding: 0px 10px 10px 10px">
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-android-favorite" style="font-size: 25px;color: #000"></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
-                                            <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: 25px;color: #9c9c9c"" ></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
-                                            <span style="margin-right: 8px"><i class="icon-send" style="font-size: medium"></i></span>
-
+                                            <span style="margin-right: 8px"><i class="icon-send" style="font-size: 25px;color: #9c9c9c""></i></span>
                                         </span>
 
                                     </p>
@@ -237,29 +233,28 @@
                                         <a href="#"  class=" nav-link d-flex flex-row">
                                             <span class="avatar avatar-md"><img src="app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"></span>
                                             <span class="d-flex flex-column ml-1" style="line-height: 18px">
-                                                        <span class="user-name card-content-creator" style="color: #000"><strong>John Doe</strong></span>
-                                                        <span class="subtitle-text"><span>4 hrs</span></span>
+                                                        <span class="user-name card-content-creator f-bold-small" style="color: #000">John Doe</span>
+                                                        <span class="subtitle-text"><span class="f-normal-small">4 hrs</span></span>
                                                     </span>
 
                                         </a>
                                     </p>
                                 </div>
                                 <div class="card-block card-blog-img-padding">
-                                    <img class="card-img-top img-fluid" src="app-assets/images/carousel/04.jpg" alt="Card image cap" width="100%" />
+                                    <img class="card-img-top img-fluid" src="app-assets/images/carousel/03.jpg" alt="Card image cap" width="100%" />
                                 </div>
 
                                 <div class="card-block card-blog-padding" style="padding-bottom: 0px">
-                                    <h4 class="card-title" style="margin-bottom: 10px;">Top Image Cap</h4>
-                                    <p class="card-text">Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut pastry.</p>
+                                    <div class="card-title f-bold-small" style="margin-bottom: 10px;">Top Image Cap</div>
+                                    <p class="card-text f-normal-small">Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut pastry.</p>
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: small"></i></span>
-                                            <span class="likes-Views"> <small>200</small></span>
+                                            <span class="likes-Views f-normal-small">200 likes</span>
                                         </span>
                                         <span>
-                                            <span class="likes-Views"> <small>44 Comments <span>&bull;</span></small></span>
-                                            <span class="likes-Views"><small>10 Shares <span>&bull;</span></small></span>
-                                            <span class="likes-Views"><small>220 Views </small></span>
+                                            <span class="likes-Views f-normal-small"> 44 Comments <span>&bull;</span></span>
+                                            <span class="likes-Views f-normal-small">10 Shares <span>&bull;</span></span>
+                                            <span class="likes-Views f-normal-small">220 Views</span>
 
                                         </span>
 
@@ -270,14 +265,13 @@
                                 <div class="card-block" style="padding: 0px 10px 10px 10px">
                                     <p style="margin-bottom: 0px;" class="d-flex flex-row justify-content-between">
                                         <span class="d-flex flex-row">
-                                            <span style="margin-right: 8px"><i class="icon-heart" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-android-favorite" style="font-size: 25px;color: #000"></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
-                                            <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: medium"></i></span>
+                                            <span style="margin-right: 8px"><i class="icon-chatbubble" style="font-size: 25px;color: #9c9c9c"" ></i></span>
 
                                             <span class="likes-Views" style="color: #818A91"> &nbsp;&bull;&nbsp;</span>
-                                            <span style="margin-right: 8px"><i class="icon-send" style="font-size: medium"></i></span>
-
+                                            <span style="margin-right: 8px"><i class="icon-send" style="font-size: 25px;color: #9c9c9c""></i></span>
                                         </span>
 
                                     </p>
