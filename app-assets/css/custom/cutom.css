@@ -71,7 +71,7 @@ span.card-content-creator:hover{
 }
 .f-bold-small{
     font-size: 14px !important;
-    font-weight: bold !important;
+    font-weight: 600 !important;
 }
 .f-normal-big{
     font-size: 18px !important;
@@ -79,5 +79,34 @@ span.card-content-creator:hover{
 }
 .f-bold-big{
     font-size: 18px !important;
-    font-weight: bold !important;
+    font-weight: 600 !important;
+}
+.f-heading{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 25px;
+}
+.f-subtitle{
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 20px;
+}
+
+.c-w{
+    color: #fff;
+}
+.c-b{
+    color: #000;
+}
+.c-blue{
+    background-color: #3369E8;
+}
+.c-red{
+    background-color: #D50F25;
+}
+.c-yellow{
+    background-color: #EEB211;
+}
+.c-green{
+    background-color: #009925;
 }
