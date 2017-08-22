@@ -111,7 +111,13 @@ span.card-content-creator:hover{
     background-color: #009925;
 }
 .bg-fa{
-    background-color: #fafafa;
+    background-color: #fafafa !important;
 }
 
 .ratio16-9:before {padding-top: 56.25%;}
+
+.profile-name{
+    font-size: 18px !important;
+    font-weight: normal !important;
+    line-height: 25px;
+}
